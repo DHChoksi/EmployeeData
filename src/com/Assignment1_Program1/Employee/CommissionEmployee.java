@@ -1,10 +1,12 @@
-package com.Assignment.Employee;
+package com.Assignment1_Program1.Employee;
 
-public class CommissionEmployee extends Employee {
+public class CommissionEmployee extends Employee
+{
     private double m_CommissionRate;
     private double m_GrossSales;
 
-    public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber, double commissionRate, double grossSales) {
+    public CommissionEmployee(String firstName, String lastName, String socialSecurityNumber, double commissionRate, double grossSales)
+    {
         super(firstName, lastName, socialSecurityNumber);
         m_CommissionRate = commissionRate;
         m_GrossSales = grossSales;

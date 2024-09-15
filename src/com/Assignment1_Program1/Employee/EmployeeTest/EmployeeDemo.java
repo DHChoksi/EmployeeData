@@ -1,6 +1,6 @@
-package com.Assignment.Test;
+package com.Assignment1_Program1.Employee.EmployeeTest;
 
-import com.Assignment.Employee.*;
+import com.Assignment1_Program1.Employee.*;
 
 public class EmployeeDemo
 {

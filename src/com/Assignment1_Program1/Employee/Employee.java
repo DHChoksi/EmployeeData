@@ -1,4 +1,4 @@
-package com.Assignment.Employee;
+package com.Assignment1_Program1.Employee;
 
 public class Employee
 {
@@ -15,7 +15,7 @@ public class Employee
         m_SocialSecurityNumber = socialSecurityNumber;
     }
 
-    // Getter - Setter method
+    // Getter - Setter
     public String getFirstName()
     {
         return m_FirstName;
@@ -46,7 +46,6 @@ public class Employee
         m_SocialSecurityNumber = socialSecurityNumber;
     }
 
-    // toString method
     @Override
     public String toString()
     {
